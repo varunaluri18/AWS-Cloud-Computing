@@ -1,0 +1,155 @@
+Take a taxi-SAAS
+Hire a taxi-PAAS
+Lease a taxi-IAAS
+
+Features and Benifits:
+. Providers responsibility
+. Pay for use(cost efficiency)
+. Limitless scalibitlity
+. Migration Facility and Workload Resilience
+. Self Service provisioning
+
+Cloud Deployment Models
+. Public Cloud
+. Private Cloud
+. Hybrid Cloud
+____________________________________
+
+Difference b/w AWS - Azure as follows:::
+compute
+AWS - Azure
+EC2 - Virtual Machine
+Elastic Beanstalk - AppService
+AWS LAMBDA - Functions
+256 GB RAM and 64VCPU ,AWS will charge ,$3.20/hour,Azure $6.76/hour
+
+Storage
+AWS - Azure
+S3 - Blob storage
+AWS Glacier - Backup
+Storage - ColdTier,Hot Tier
+
+DataBases
+AWS - Azure
+RDS - SQL DB
+Redshift -  SQL DWH
+DynamoDb - DocumentDB
+EMR - Azure HD Insights 
+Cortana Intelligence Suite that comes with Hadoop,spark,strom and HBase
+
+Networking Services
+VPS - enable to create subnets,route tables,private IP address range and network gateways
+virtual network
+
+Container and Orchestration Support
+
+Compliance
+Upto 50TB of storage - 0.023 GB/month
+51-100th of storagr - 0.022 GB/month
+5ooTB+storage - 0.021 GB/month
+AWS calculator
+TCO calculator
+
+AWS
+Amazon EC2 - 750 hours of free windows or linux instance usage per month
+S3 - 5GB of std storage
+200000 get request
+200000 put request
+RDS - 750 hours of free instance
+20GB of DB Storage :SSD or magnetic
+10000000 10s
+cloudfront -a 50GB of Data transfer out
+2000000 HTP nad HTTPS request
+Data Transfer 15GB of data transfer
+AWS Lambda - 1000000 free request per month
+3.2 million seconds of computing per month
+AWS KMS - 20000 free requests per month
+Dynamo Db - 25GB of storage
+______________________________________
+
+EC2
+Instance - virtual environments -its is an on demand service
+Types of Instances:
+. General Purpose Instance 
+-used for web servers
+-A1,M5,M5a,M4,T3,T2
+. Compute Optimised Instance
+-C5,C5n,C4
+. Memory Optimised Instances
+-R5,R5a,R4,X1e
+. Acclerated Computing Instances
+. Storage Optimised Instances
+
+Features of instances in AWS
+AMI(Amzon Machine Images)
+Instance Types
+Key Pairs
+Instance Storage Volume
+Amazon EBS(Elastic Block store) Volumes
+Security Groups
+Elastic IP addresses
+VPC(Virtual Private Cloud)
+
+EBS Volumes (Elastic Block Storage) -Raw block level storage that can be attached to EC2
+EBS Snapshot is used to backup data from EBS volumes to S3 by taking intime snapshot
+
+AWS Lambda
+It is a serverless compute service
+APP Building
+Execute the backend code by automatically managing the AWS resources.
+The code that you want Lambda to run is known as Lambda function.
+Event sourceis the entity which trigger a Lambda function.
+
+Limitations of AWS lambda:
+Hardware specific Limitation
+
+AWS S3
+S3 is secure because 
+client side encryption
+server side encryption
+provides versioning
+S3 is durable
+oject will be the fundamental entity in S3
+data will be the fundamental entity in S3
+data which is accessed not that frequently
+amazon S3 standard for frequently data acess
+amazon S3 standerd for infrequent data
+amazon glacier
+bucket is a logical unit in S3 containing objects which contain data and metadata.
+
+Parameters to choose the region
+price:mum-$691/month or $0.9 hourly
+	n virginia-$480/month or $0.6 hourly
+user/customer location:mumbai/n virginia/latency
+latency is the average time taken per disk I/O operation
+latency:from USA to INDIA-low
+	from INDIA to USA-high
+service avaliability
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
